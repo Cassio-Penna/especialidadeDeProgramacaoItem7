@@ -1,0 +1,99 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #4da6ff;
+  color: white;
+  padding: 35px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+}
+
+header p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  color: #4da6ff;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+
+/* ===== DIRETORIA ===== */
+.diretoria ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.diretoria li {
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+/* ===== BOTÃO ===== */
+.btn-instagram {
+  display: inline-block;
+  background-color: #4da6ff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 1.1em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-instagram:hover {
+  background-color: #3399ff;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #4da6ff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
